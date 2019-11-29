@@ -1,0 +1,80 @@
+######2019-11-29######
+#######0.04.007#######
+######FLASH INFO######
+BIN file: JL_IOT_firmware.bin
+COM port: (COM4) Silicon Labs CP210x USB to UART Bridge (Port_#0005.Hub_#0004)
+Baud rate: 115200
+######POST FLASH######
+No post flash information entered...
+######FLASH LOG######
+[esptool.exe -vv -cd nodemcu -cb 115200 -cp COM4 -ca 0x00000 -cf "Z:\Project\ESPEasy\dist\bin\JL_IOT_firmware.bin"]
+[2019/11/29 下午 12:40:34] esptool v0.4.12 - (c) 2014 Ch. Klippel <ck@atelier-klippel.de>
+[2019/11/29 下午 12:40:34] 	setting board to nodemcu
+[2019/11/29 下午 12:40:34] 	setting baudrate from 115200 to 115200
+[2019/11/29 下午 12:40:34] 	setting port from  to COM4
+[2019/11/29 下午 12:40:34] 	setting address from 0x00000000 to 0x00000000
+[2019/11/29 下午 12:40:34] 	espcomm_upload_file
+[2019/11/29 下午 12:40:34] 	espcomm_upload_mem
+[2019/11/29 下午 12:40:34] 	setting serial port timeouts to 1000 ms
+[2019/11/29 下午 12:40:34] opening bootloader
+[2019/11/29 下午 12:40:34] resetting board
+[2019/11/29 下午 12:40:34] trying to connect
+[2019/11/29 下午 12:40:34] 	flush start
+[2019/11/29 下午 12:40:34] 	setting serial port timeouts to 1 ms
+[2019/11/29 下午 12:40:34] 	setting serial port timeouts to 1000 ms
+[2019/11/29 下午 12:40:34] 	flush complete
+[2019/11/29 下午 12:40:34] 	espcomm_send_command: sending command header
+[2019/11/29 下午 12:40:34] 	espcomm_send_command: sending command payload
+[2019/11/29 下午 12:40:34] 	read 0, requested 1
+[2019/11/29 下午 12:40:34] trying to connect
+[2019/11/29 下午 12:40:34] 	flush start
+[2019/11/29 下午 12:40:34] 	setting serial port timeouts to 1 ms
+[2019/11/29 下午 12:40:34] 	setting serial port timeouts to 1000 ms
+[2019/11/29 下午 12:40:34] 	flush complete
+[2019/11/29 下午 12:40:34] 	espcomm_send_command: sending command header
+[2019/11/29 下午 12:40:34] 	espcomm_send_command: sending command payload
+[2019/11/29 下午 12:40:34] 	espcomm_send_command: receiving 2 bytes of data
+[2019/11/29 下午 12:40:34] 	espcomm_send_command: receiving 2 bytes of data
+[2019/11/29 下午 12:40:34] 	espcomm_send_command: receiving 2 bytes of data
+[2019/11/29 下午 12:40:34] 	espcomm_send_command: receiving 2 bytes of data
+[2019/11/29 下午 12:40:34] 	espcomm_send_command: receiving 2 bytes of data
+[2019/11/29 下午 12:40:34] 	espcomm_send_command: receiving 2 bytes of data
+[2019/11/29 下午 12:40:34] 	espcomm_send_command: receiving 2 bytes of data
+[2019/11/29 下午 12:40:34] 	espcomm_send_command: receiving 2 bytes of data
+[2019/11/29 下午 12:40:34] Uploading 779520 bytes from Z:\Project\ESPEasy\dist\bin\JL_IOT_firmware.bin to flash at 0x00000000
+[2019/11/29 下午 12:40:34] 	erasing flash
+[2019/11/29 下午 12:40:34] 	size: 0be500 address: 000000
+[2019/11/29 下午 12:40:34] 	first_sector_index: 0
+[2019/11/29 下午 12:40:34] 	total_sector_count: 191
+[2019/11/29 下午 12:40:34] 	head_sector_count: 16
+[2019/11/29 下午 12:40:34] 	adjusted_sector_count: 175
+[2019/11/29 下午 12:40:34] 	erase_size: 0af000
+[2019/11/29 下午 12:40:34] 	espcomm_send_command: sending command header
+[2019/11/29 下午 12:40:34] 	espcomm_send_command: sending command payload
+[2019/11/29 下午 12:40:34] 	setting serial port timeouts to 15000 ms
+[2019/11/29 下午 12:40:34] 	setting serial port timeouts to 1000 ms
+[2019/11/29 下午 12:40:34] 	espcomm_send_command: receiving 2 bytes of data
+[2019/11/29 下午 12:40:34] 	writing flash
+[2019/11/29 下午 12:40:43] ................................................................................ [ 10% ]
+[2019/11/29 下午 12:40:51] ................................................................................ [ 20% ]
+[2019/11/29 下午 12:41:00] ................................................................................ [ 31% ]
+[2019/11/29 下午 12:41:08] ................................................................................ [ 41% ]
+[2019/11/29 下午 12:41:17] ................................................................................ [ 52% ]
+[2019/11/29 下午 12:41:25] ................................................................................ [ 62% ]
+[2019/11/29 下午 12:41:34] ................................................................................ [ 73% ]
+[2019/11/29 下午 12:41:42] ................................................................................ [ 83% ]
+[2019/11/29 下午 12:41:51] ................................................................................ [ 94% ]
+[2019/11/29 下午 12:41:55] ..........................................                                       [ 100% ]
+[2019/11/29 下午 12:41:55] starting app without reboot
+[2019/11/29 下午 12:41:55] 	espcomm_send_command: sending command header
+[2019/11/29 下午 12:41:55] 	espcomm_send_command: sending command payload
+[2019/11/29 下午 12:41:55] 	espcomm_send_command: receiving 2 bytes of data
+[2019/11/29 下午 12:41:55] closing bootloader
+[2019/11/29 下午 12:41:55] 	flush start
+[2019/11/29 下午 12:41:55] 	setting serial port timeouts to 1 ms
+[2019/11/29 下午 12:41:55] 	setting serial port timeouts to 1000 ms
+[2019/11/29 下午 12:41:55] 	flush complete
+[2019-11-29 12:41:55] DONE!
+############################
+[2019-11-29 12:41:55] The COM port was already in use... the post-flash did not complete.
+[2019-11-29 12:41:55] JOB COMPLETED, over and out!
